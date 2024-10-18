@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9c19f2d-5bca-46b9-8882-e8be97777c5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/Regression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/client/MegogoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/endpoints/MegogoEndpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/helpers/RestAssuredHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/channel/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/channel/ChannelResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/channel/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/channel/Pictures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/channel/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/time/CurrentTimeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assertions/CustomAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/CustomStrategyParallelism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/EnvProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MegogoChannelsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MegogoLocalTimeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nWppDHNeJcZDvq8Y1f8psLoExg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MegogoChannelsTests.executor": "Run",
+    "JUnit.MegogoChannelsTests.testChanelProgramsTimestampSorted.executor": "Debug",
+    "JUnit.MegogoChannelsTests.testCurrentTvProgramExist.executor": "Run",
+    "JUnit.MegogoChannelsTests.testCurrentTvProgramIn24HourRange.executor": "Run",
+    "JUnit.MegogoChannelsTests.testNoTvProgramsAfter24Hours.executor": "Run",
+    "JUnit.MegogoChannelsTests.testNoTvProgramsInPast.executor": "Run",
+    "JUnit.MegogoLocalTimeTest.testTime.executor": "Run",
+    "JUnit.MegogoTests.test.executor": "Debug",
+    "JUnit.MegogoTests.testChanelPrograms.executor": "Debug",
+    "JUnit.MegogoTests.testCurrentTime.executor": "Debug",
+    "JUnit.MegogoTests.testTime.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.MegogoChannelsTests.testChanelProgramsTimestampSorted">
+    <configuration name="MegogoChannelsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegogoChannelsTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MegogoChannelsTests.testChanelProgramsTimestampSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegogoChannelsTests" />
+      <option name="METHOD_NAME" value="testChanelProgramsTimestampSorted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MegogoChannelsTests.testNoTvProgramsAfter24Hours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegogoChannelsTests" />
+      <option name="METHOD_NAME" value="testNoTvProgramsAfter24Hours" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MegogoChannelsTests.testNoTvProgramsInPast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegogoChannelsTests" />
+      <option name="METHOD_NAME" value="testNoTvProgramsInPast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MegogoLocalTimeTest.testTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegogoLocalTimeTest" />
+      <option name="METHOD_NAME" value="testTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MegogoChannelsTests.testChanelProgramsTimestampSorted" />
+        <item itemvalue="JUnit.MegogoLocalTimeTest.testTime" />
+        <item itemvalue="JUnit.MegogoChannelsTests" />
+        <item itemvalue="JUnit.MegogoChannelsTests.testNoTvProgramsInPast" />
+        <item itemvalue="JUnit.MegogoChannelsTests.testNoTvProgramsAfter24Hours" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9c19f2d-5bca-46b9-8882-e8be97777c5c" name="Changes" comment="" />
+      <created>1729098869024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729098869024</updated>
+    </task>
+    <servers />
+  </component>
+</project>
